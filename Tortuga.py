@@ -5,12 +5,12 @@ tess = turtle.Turtle()
 tess.shape("turtle")
 tess.color("black")
 
-tess.penup()                # This is new
+tess.penup()                
 size = 20
 for i in range(30):
-   tess.stamp()             # Leave an impression on the canvas
-   size = size + 3          # Increase the size on every iteration
-   tess.forward(size)       # Move tess along
-   tess.right(24)           #  ...  and turn her
+   tess.stamp()             
+   size = size + 3          
+   tess.forward(size)       
+   tess.right(24)        
 
 wn.mainloop()
